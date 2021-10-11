@@ -1,0 +1,14 @@
+.footer-stick {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  /* Height of the footer*/
+  /* height: 300px; */
+}
+.recent {
+  border-radius: 20px;
+}
+.col {
+  border-radius: 10px;
+}
