@@ -1,14 +1,29 @@
-.footer-stick {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-
-  /* Height of the footer*/
-  /* height: 300px; */
-}
 .recent {
   border-radius: 20px;
 }
 .col {
   border-radius: 10px;
+}
+
+#other-blogs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 80vh;
+  overflow-y: scroll;
+
+  position: sticky;
+  top: 100px;
+}
+
+#other-blogs::-webkit-scrollbar {
+  display: none;
+}
+
+#other-blogs > .other-blog{
+  flex: 1 1 200px;
+  background: #7c4dff;
+  padding: 10px;
+  margin: 10px 5px;
+  border-radius: 3px;
 }
